@@ -9,7 +9,7 @@ st.title("Impact of Q-Factor and Meta-State Factors")
 
 st.header("Overview")
 st.markdown("""
-![](https://a9group.net/a9logo.pnp) Welcome to the interactive dashboard designed to illuminate how the Q-Factor affects ticket resolution times in Jira. Originating from fields like engineering and sports, the Q-Factor here measures the efficiency and effectiveness of your project management efforts.
+![https://a9group.net/a9logo.png](https://a9group.net/a9logo.png) Welcome to the interactive dashboard designed to illuminate how the Q-Factor affects ticket resolution times in Jira. Originating from fields like engineering and sports, the Q-Factor here measures the efficiency and effectiveness of your project management efforts.
 """)
 
 st.header("Simulation Purpose")
@@ -117,3 +117,9 @@ def scenario_testing(base_score, adjustment):
 base_q_factor = st.slider("Base Q-Factor Score", min_value=0.0, max_value=1.0, value=0.5, step=0.01)
 adjustment = st.slider("Adjustment", min_value=-0.5, max_value=0.5, value=0.1, step=0.01)
 st.button("Run Scenario Test", on_click=lambda: scenario_testing(base_q_factor, adjustment))
+
+# Display the copyright notice
+st.markdown("""
+**EXPERIMENTAL**  
+Copyright William Kennedy, A9 Group, Inc.
+""")
