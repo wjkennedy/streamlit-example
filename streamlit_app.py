@@ -9,7 +9,9 @@ st.title("Impact of Q-Factor and Meta-State Factors")
 
 st.header("Overview")
 st.markdown("""
-![https://a9group.net/a9logo.png](https://a9group.net/a9logo.png) Welcome to the interactive dashboard designed to illuminate how the Q-Factor affects ticket resolution times in Jira. Originating from fields like engineering and sports, the Q-Factor here measures the efficiency and effectiveness of your project management efforts.
+![https://a9group.net/a9logo.png](https://a9group.net/a9logo.png) 
+            
+Welcome to the interactive dashboard designed to illuminate how the Q-Factor affects ticket resolution times in Jira. Originating from fields like engineering and sports, the Q-Factor here measures the efficiency and effectiveness of your project management efforts.
 """)
 
 st.header("Simulation Purpose")
